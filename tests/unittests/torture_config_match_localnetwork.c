@@ -6,7 +6,6 @@
 #ifdef HAVE_IFADDRS_H
 #include <ifaddrs.h>
 #endif
-#include <net/if.h>
 #include <stdbool.h>
 
 /* This list contains common local subnet addresses and more generic ones */

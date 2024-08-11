@@ -27,11 +27,7 @@
 #ifndef _WIN32
 /* This is needed for a standard getpwuid_r on opensolaris */
 #define _POSIX_PTHREAD_SEMANTICS
-#include <arpa/inet.h>
-#include <net/if.h>
-#include <netinet/in.h>
 #include <pwd.h>
-#include <sys/socket.h>
 #include <sys/types.h>
 
 #endif /* _WIN32 */

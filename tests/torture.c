@@ -33,7 +33,6 @@
 #ifndef _WIN32
 # include <dirent.h>
 # include <errno.h>
-# include <sys/socket.h>
 #endif
 
 #ifdef HAVE_UNISTD_H

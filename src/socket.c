@@ -41,7 +41,6 @@ struct sockaddr_un {
 #include <fcntl.h>
 #include <sys/types.h>
 #include <sys/wait.h>
-#include <sys/socket.h>
 #include <sys/un.h>
 #include <signal.h>
 #ifdef HAVE_PTHREAD

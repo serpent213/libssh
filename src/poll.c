@@ -117,7 +117,6 @@ static poll_fn ssh_poll_emu;
 #include <winsock2.h>
 #else /* _WIN32 */
 #include <sys/select.h>
-#include <sys/socket.h>
 
 # ifdef HAVE_SYS_TIME_H
 #  include <sys/time.h>

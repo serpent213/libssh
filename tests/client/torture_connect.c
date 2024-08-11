@@ -28,10 +28,7 @@
 #ifdef HAVE_SYS_TIME_H
 #include <sys/time.h>
 #endif /* HAVE_SYS_TIME_H */
-#include <arpa/inet.h>
-#include <netinet/in.h>
 #include <sys/types.h>
-#include <sys/socket.h>
 #include <errno.h>
 #include <pwd.h>
 

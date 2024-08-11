@@ -41,9 +41,6 @@
 #include <stdbool.h>
 #include <sys/types.h>
 #ifndef _WIN32
-#include <arpa/inet.h>
-#include <netinet/in.h>
-#include <sys/socket.h>
 #endif
 
 /* for systems without IPv6 support matching should still work */

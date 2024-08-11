@@ -81,13 +81,11 @@
 #include <libssh/libssh.h>
 #include <libssh/callbacks.h>
 
-#include <netinet/in.h>
 #include <netinet/tcp.h>
 
 #include <sys/un.h>
 #include <sys/time.h>
 #include <sys/types.h>
-#include <sys/socket.h>
 
 /*
  * Data Structures and Macros

@@ -36,7 +36,6 @@
 
 #ifndef _WIN32
 # include <sys/types.h>
-# include <sys/socket.h>
 #endif
 
 struct ssh_connector_struct {

@@ -404,7 +404,7 @@ if (BUILD_STATIC_LIB)
                              PRIVATE ${LIBSSH_PRIVATE_INCLUDE_DIRS})
   target_link_libraries(ssh-static
                         PUBLIC ${LIBSSH_LINK_LIBRARIES})
-  add_library(ssh::static ALIAS ssh-static)
+  # add_library(ssh::static ALIAS ssh-static)
 
   if (MSVC)
     set(OUTPUT_SUFFIX static)

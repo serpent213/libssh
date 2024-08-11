@@ -30,8 +30,6 @@
 #include <stdlib.h>
 
 #ifndef _WIN32
-#include <arpa/inet.h>
-#include <netinet/in.h>
 #endif
 
 #include "libssh/priv.h"

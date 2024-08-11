@@ -69,10 +69,7 @@
 
 #else /* _WIN32 */
 
-#include <netdb.h>
-#include <sys/socket.h>
 #include <sys/select.h>
-#include <netinet/in.h>
 #include <netinet/tcp.h>
 
 #endif /* _WIN32 */

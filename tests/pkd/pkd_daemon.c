@@ -10,14 +10,12 @@
 #include "config.h"
 
 #include <errno.h>
-#include <netinet/in.h>
 #include <pthread.h>
 #include <signal.h>
 #include <stdarg.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <sys/types.h>
-#include <sys/socket.h>
 
 #include <libssh/callbacks.h>
 #include <libssh/libssh.h>

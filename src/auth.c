@@ -28,8 +28,6 @@
 #include <string.h>
 
 #ifndef _WIN32
-#include <netinet/in.h>
-#include <arpa/inet.h>
 #endif
 
 #include "libssh/priv.h"

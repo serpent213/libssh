@@ -21,7 +21,6 @@
 #ifdef _WIN32
 #include <netioapi.h>
 #else
-#include <net/if.h>
 #endif
 
 #define TORTURE_TEST_DIR "/usr/local/bin/truc/much/.."

@@ -39,7 +39,6 @@
 # include <errno.h>
 # include <signal.h>
 # include <sys/wait.h>
-# include <net/if.h>
 # include <netinet/in.h>
 #endif
 #ifdef HAVE_IFADDRS_H

@@ -64,9 +64,6 @@
 
 #else /* _WIN32 */
 
-#include <sys/socket.h>
-#include <netinet/in.h>
-#include <netdb.h>
 #define SOCKOPT_TYPE_ARG4 int
 
 #endif /* _WIN32 */
